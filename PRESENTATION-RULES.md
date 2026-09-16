@@ -30,7 +30,7 @@ SD/
   README.md
   .gitignore
   lab-1/
-    SOLUTION.md
+    README.md
     assets/      (optional)
   lab-2/
   lab-3/
@@ -42,9 +42,11 @@ SD/
 ```
 
 - One folder per lab, named `lab-1` through `lab-8`.
-- Each lab folder holds exactly one `SOLUTION.md`.
-- `SD/README.md` states your name, your group, the language you chose, and
-  links every lab folder.
+- Each lab folder holds exactly one `README.md`. That file is your solution.
+  GitHub renders it as soon as someone opens the folder, so your work is
+  visible without a click.
+- `SD/README.md` is a different file: it states your name, your group, the
+  language you chose, and links every lab folder.
 - `lab-N/assets/` is optional. Create it only if you keep screenshot files
   next to a solution (see section 4).
 
@@ -65,7 +67,7 @@ come from this repository — leave them alone. Everything you write goes inside
 | 4     | Evaluation 2      |
 | 5     | Labs 7-8          |
 
-A lab is presented only after its `SOLUTION.md` is committed and pushed. Work
+A lab is presented only after its `README.md` is committed and pushed. Work
 committed during or after the presentation does not count for that session.
 
 ## 4. Research must be demonstrated explicitly
@@ -73,7 +75,7 @@ committed during or after the presentation does not count for that session.
 Stating that you researched something is not enough. Demonstrate it in one of
 two ways:
 
-- **Screenshots**, either embedded directly in `SOLUTION.md` or committed
+- **Screenshots**, either embedded directly in `README.md` or committed
   under `SD/lab-N/assets/` and referenced from it, or
 - a **live demonstration** during the presentation.
 
@@ -82,7 +84,7 @@ which scope decision the research changed or confirmed.
 
 ## 5. A lab counts as presented when
 
-- [ ] Its `SOLUTION.md` exists in the correct folder and is pushed to your
+- [ ] Its `README.md` exists in the correct folder and is pushed to your
       public fork.
 - [ ] It contains every section required by that lab's `README.md`.
 - [ ] Its research is demonstrated by screenshots or live.

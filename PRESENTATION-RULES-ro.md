@@ -32,7 +32,7 @@ SD/
   README.md
   .gitignore
   lab-1/
-    SOLUTION.md
+    README.md
     assets/      (opțional)
   lab-2/
   lab-3/
@@ -44,9 +44,11 @@ SD/
 ```
 
 - Câte un folder pentru fiecare laborator, numit de la `lab-1` la `lab-8`.
-- Fiecare folder de laborator conține exact un fișier `SOLUTION.md`.
-- Fișierul `SD/README.md` precizează numele tău, grupa, limba aleasă și conține
-  link către fiecare folder de laborator.
+- Fiecare folder de laborator conține exact un fișier `README.md`. Acel fișier
+  este soluția ta. GitHub îl afișează imediat ce cineva deschide folderul,
+  deci munca ta se vede fără niciun click.
+- Fișierul `SD/README.md` este altul: el precizează numele tău, grupa, limba
+  aleasă și conține link către fiecare folder de laborator.
 - Folderul `lab-N/assets/` este opțional. Creează-l doar dacă păstrezi
   fișiere cu capturi de ecran lângă o soluție (vezi secțiunea 4).
 
@@ -70,7 +72,7 @@ cu munca ta.
 | 4     | Evaluarea 2       |
 | 5     | Laboratoarele 7-8 |
 
-Un laborator se prezintă doar după ce fișierul lui `SOLUTION.md` este comis și
+Un laborator se prezintă doar după ce fișierul lui `README.md` este comis și
 urcat. Ce este comis în timpul prezentării sau după ea nu se ia în calcul
 pentru acea sesiune.
 
@@ -79,7 +81,7 @@ pentru acea sesiune.
 Nu este suficient să afirmi că ai făcut cercetare. Demonstreaz-o într-unul din
 două moduri:
 
-- prin **capturi de ecran**, fie inserate direct în `SOLUTION.md`, fie comise
+- prin **capturi de ecran**, fie inserate direct în `README.md`, fie comise
   în `SD/lab-N/assets/` și referite din el, sau
 - printr-o **demonstrație live** în timpul prezentării.
 
@@ -89,7 +91,7 @@ acea cercetare.
 
 ## 5. Un laborator se consideră prezentat când
 
-- [ ] Fișierul lui `SOLUTION.md` există în folderul corect și este urcat în
+- [ ] Fișierul lui `README.md` există în folderul corect și este urcat în
       fork-ul tău public.
 - [ ] Conține fiecare secțiune cerută de fișierul `README.md` al acelui
       laborator.
